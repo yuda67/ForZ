@@ -1,0 +1,134 @@
+
+body {
+    background-color: #FAF0D7;
+    height: 1000px;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    z-index: -10;
+    
+    height: 50px;
+    height: 50px;
+}
+
+.gambar-head {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 100%;   
+}
+
+.judul {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 115px;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.judul2 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 200px;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+}
+
+.tanda-panah {
+    position: absolute;
+    display: flex;
+    height: 200px;
+    top: 900px;
+    right: 30px;
+    transform: rotate(-180deg);
+}
+
+.shape-1 {
+    display: flex;
+    position: absolute;
+    top: 325px;
+    left: 200px;
+    height: 200px;
+}
+
+.container_optional {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.memo {
+height: 400px;
+display: flex;
+position: relative;
+align-items: center;
+margin: 20px;
+}
+
+.memo_2 {
+height: 400px;
+display: flex;
+position: relative;
+align-items: center;
+}
+
+.flower_canbera {
+    display: flexbox;
+    position: absolute;
+    z-index: -2;
+    top: 200px;
+    transform: rotate(-30deg);
+    left: 450px;
+    right: 40px;
+    height: 500px;
+}
+
+.type-animation {
+    width: 500px;
+    height: 100px;
+    color: white;
+    margin-top: 380px;
+    display: flex;
+    padding-left: 60px;
+    
+}
+.type-animation h2{
+    font-family: 'Roboto',sans-serif;
+}
+
+.type-animation span {
+    color: #F3AA60;
+}
+.container_cat {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+.cat {
+    height: 200px;
+}
+
+.container_cat button {
+    background-color: transparent;
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 100px;
+    height: 50px;
+    background-color: #9c7b59;
+    border: none;
+    box-shadow: 1px 1px 10px black;
+    
+}
+
+.button_flower {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
